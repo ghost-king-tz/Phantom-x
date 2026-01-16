@@ -1,10 +1,10 @@
-# Anita-V5
+# Phantom x
    <a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 <p align="center"> 
 <u>⚡ A simple WhatsApp User Bot Coded By David Cyril ⚡</u>
 </p>
 <p align="center">
-<img src="https://files.catbox.moe/0ly0h6.jpg"/>       
+<img src="https://h.uguu.se/UCPPmztd.jpg"/>       
 <p align="center">
   <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=EB+Garamond&weight=800&size=28&duration=4000&pause=1000&random=false&width=435&lines=+•QUEEN+ANITA-+V5•;MULTI-DEVICE+WHATSAPP+BOT;DEVELOPED+BY+DAVID+CYRIL;RELEASED+DATE+05%2F12%2F2024." alt="Typing SVG" /></a>
 </p> 
@@ -28,7 +28,7 @@
 ---
 1.  **Fork Repo First, [CLICK HERE](https://github.com/DavidCyrilTech/Anita-V5/fork) (A MUST) and Star ⭐ Repository for Courage.**
 2.  **Get SESSION ID BY [PAIRING CODE](https://pair.david-cyril.net.ng)** 
-3. **Deploy on [HEROKU](https://dashboard.heroku.com/new?template=https://github.com/DavidCyrilTech/Anita-V5)**
+3. **Deploy on [HEROKU](https://dashboard.heroku.com/new?template=https://github.com/ghost-king-tz/Phantom-x.git)**
 3. **Deploy on [RENDER](https://dashboard.render.com/signup)**
 3. **Deploy on [KOYEB](https://app.koyeb.com/services/deploy/?type=git&repository=github.com%2FDavidCyrilTech&branch=main&name=Anita-V5&builder=dockerfile&env%5BAUTO_STATUS_REACT=false%5D=&env%5BSESSION_ID%5D=your%20sessionid%20here&env%5BPUBLIC%5D=true&env=%5BAUTO_TYPING%5D%3Dfalse&env%5BAUTO_STATUS_VIEW%5D=true)**
 3. **Deploy on [TALKDROVE](https://host.talkdrove.com)**
