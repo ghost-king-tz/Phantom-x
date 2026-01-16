@@ -133,7 +133,7 @@ conn.ev.on('connection.update', (update) => {
 *│ CONNECTED*
 *╰───*▣▣▣▣▣▣▣▣▣▣▣▣
                    *Ꮲhᴀnᴛᴏʍ Ꮱ* `;
-    conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/l459cz.png` }, caption: up })
+    conn.sendMessage(conn.user.id, { image: { url: `https://h.uguu.se/PhgJmabv.jpg` }, caption: up })
   }
   })
   conn.ev.on('creds.update', saveCreds)
@@ -183,7 +183,7 @@ conn.ev.on('connection.update', async (update) => {
     }
   if (mek.key && mek.key.remoteJid === 'status@broadcast' && config.AUTO_STATUS_REACT === "true"){
     const jawadlike = await conn.decodeJid(conn.user.id);
-    const emojis = [''💚"];
+    const emojis = [''💚''];
     const randomEmoji = emojis[Math.floor(Math.random() * emojis.length)];
     await conn.sendMessage(mek.key.remoteJid, {
       react: {
@@ -231,7 +231,7 @@ conn.ev.on('connection.update', async (update) => {
   conn.sendMessage(from, { text: teks }, { quoted: mek })
   }
   const udp = botNumber.split('@')[0];
-    const jawad = ('254732297194');
+    const jawad = ('255655885689');
     let isCreator = [udp, jawad, config.DEV]
 					.map(v => v.replace(/[^0-9]/g) + '@s.whatsapp.net')
 					.includes(mek.sender);
@@ -279,8 +279,8 @@ conn.ev.on('connection.update', async (update) => {
  //================ownerreact==============
    // 🥰 OWNER REACT (Multiple Numbers)
 if (
-  senderNumber.includes("254732297194") || 
-  senderNumber.includes("254111385747")
+  senderNumber.includes("255655885689") || 
+  senderNumber.includes("255655885689")
 ) {
   if (isReact) return;
   await m.react("✅");
@@ -441,7 +441,7 @@ if (!isReact && senderNumber === botNumber) {
       return buffer
     }
     
-    /**
+    
     *
     * @param {*} jid
     * @param {*} message
@@ -499,7 +499,7 @@ if (!isReact && senderNumber === botNumber) {
     }
     
     
-    /**
+    
     *
     * @param {*} path
     * @returns
@@ -586,7 +586,7 @@ if (!isReact && senderNumber === botNumber) {
       }, { quoted, ...options })
       return fs.promises.unlink(pathFile)
     }
-    /**
+    
     *
     * @param {*} message
     * @param {*} filename
@@ -621,7 +621,7 @@ if (!isReact && senderNumber === botNumber) {
         options
       );
     };
-        /**
+        
          *
          * @param {*} jid
          * @param {*} path
@@ -632,7 +632,7 @@ if (!isReact && senderNumber === botNumber) {
     //=====================================================
     conn.sendTextWithMentions = async(jid, text, quoted, options = {}) => conn.sendMessage(jid, { text: text, contextInfo: { mentionedJid: [...text.matchAll(/@(\d{0,16})/g)].map(v => v[1] + '@s.whatsapp.net') }, ...options }, { quoted })
     
-            /**
+            
              *
              * @param {*} jid
              * @param {*} path
@@ -646,7 +646,7 @@ if (!isReact && senderNumber === botNumber) {
       return await conn.sendMessage(jid, { image: buffer, caption: caption, ...options }, { quoted })
     }
     
-    /**
+    
     *
     * @param {*} jid
     * @param {*} path
@@ -658,7 +658,7 @@ if (!isReact && senderNumber === botNumber) {
     //=====================================================
     conn.sendText = (jid, text, quoted = '', options) => conn.sendMessage(jid, { text: text, ...options }, { quoted })
     
-    /**
+    
      *
      * @param {*} jid
      * @param {*} path
@@ -695,7 +695,7 @@ if (!isReact && senderNumber === botNumber) {
       conn.relayMessage(jid, template.message, { messageId: template.key.id })
     }
     
-    /**
+    
     *
     * @param {*} jid
     * @param {*} buttons
